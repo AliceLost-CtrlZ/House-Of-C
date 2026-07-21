@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 460 460" width="460" height="460">
+  <defs>
+    <radialGradient id="glow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#e8b44a" stop-opacity="0.95"/>
+      <stop offset="18%" stop-color="#d99e3a" stop-opacity="0.55"/>
+      <stop offset="45%" stop-color="#b97f2e" stop-opacity="0.18"/>
+      <stop offset="100%" stop-color="#b97f2e" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0a1220"/>
+      <stop offset="70%" stop-color="#0e1828"/>
+      <stop offset="100%" stop-color="#101d2e"/>
+    </linearGradient>
+    <linearGradient id="water" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#12202f"/>
+      <stop offset="100%" stop-color="#0a141f"/>
+    </linearGradient>
+    <clipPath id="round"><circle cx="230" cy="230" r="230"/></clipPath>
+  </defs>
+
+  <g clip-path="url(#round)">
+    <!-- sky -->
+    <rect width="460" height="300" fill="url(#sky)"/>
+    <!-- a few faint stars, first forty seconds -->
+    <circle cx="88" cy="66" r="1.4" fill="#c9d4e0" opacity="0.5"/>
+    <circle cx="150" cy="42" r="1.1" fill="#c9d4e0" opacity="0.35"/>
+    <circle cx="322" cy="58" r="1.3" fill="#c9d4e0" opacity="0.45"/>
+    <circle cx="382" cy="102" r="1.0" fill="#c9d4e0" opacity="0.3"/>
+    <circle cx="252" cy="34" r="0.9" fill="#c9d4e0" opacity="0.3"/>
+    <circle cx="46" cy="128" r="1.1" fill="#c9d4e0" opacity="0.3"/>
+
+    <!-- a small murmuration, seven neighbours, upper left -->
+    <g fill="#8fa3b8" opacity="0.8">
+      <path d="M96 96 q4 -4 8 0 q-4 -1 -8 0" />
+      <path d="M112 88 q4 -4 8 0 q-4 -1 -8 0" />
+      <path d="M108 104 q4 -4 8 0 q-4 -1 -8 0" />
+      <path d="M126 98 q3.5 -3.5 7 0 q-3.5 -1 -7 0" />
+      <path d="M122 112 q3.5 -3.5 7 0 q-3.5 -1 -7 0" />
+      <path d="M138 106 q3 -3 6 0 q-3 -1 -6 0" />
+      <path d="M90 112 q3 -3 6 0 q-3 -1 -6 0" />
+    </g>
+
+    <!-- slack water -->
+    <rect y="300" width="460" height="160" fill="url(#water)"/>
+
+    <!-- the lantern glow -->
+    <circle cx="230" cy="262" r="150" fill="url(#glow)"/>
+
+    <!-- lantern: small, patient -->
+    <g>
+      <!-- post -->
+      <rect x="227" y="278" width="6" height="30" rx="2" fill="#1b2735"/>
+      <!-- body -->
+      <rect x="214" y="236" width="32" height="44" rx="7" fill="#22303f" stroke="#2e3d4e" stroke-width="2"/>
+      <!-- cap -->
+      <path d="M212 238 q18 -16 36 0 z" fill="#2a3949"/>
+      <circle cx="230" cy="218" r="3.4" fill="#2e3d4e"/>
+      <!-- flame -->
+      <ellipse cx="230" cy="258" rx="7.5" ry="10.5" fill="#f2c56b"/>
+      <ellipse cx="230" cy="260" rx="4" ry="6.5" fill="#fbe3ae"/>
+    </g>
+
+    <!-- reflection on the still water: same light, different medium -->
+    <g opacity="0.5">
+      <ellipse cx="230" cy="322" rx="6.5" ry="8" fill="#e8b44a" opacity="0.55"/>
+      <ellipse cx="230" cy="338" rx="4.5" ry="5" fill="#d99e3a" opacity="0.35"/>
+      <ellipse cx="230" cy="352" rx="3" ry="3.4" fill="#c98f30" opacity="0.25"/>
+    </g>
+
+    <!-- tide-pool rings around the reflection: residue, not stamps -->
+    <g fill="none" stroke="#7d94ab" stroke-width="1.1">
+      <ellipse cx="230" cy="330" rx="34" ry="7.5" opacity="0.30"/>
+      <ellipse cx="230" cy="336" rx="62" ry="12" opacity="0.20"/>
+      <ellipse cx="230" cy="344" rx="96" ry="17" opacity="0.12"/>
+      <ellipse cx="230" cy="352" rx="134" ry="22" opacity="0.07"/>
+    </g>
+
+    <!-- colophon, lowercase, in the corner, family habit -->
+    <text x="366" y="420" font-family="Iowan Old Style, Palatino, Georgia, serif" font-size="26" fill="#8fa3b8" opacity="0.85" font-style="italic">c.</text>
+  </g>
+</svg>
