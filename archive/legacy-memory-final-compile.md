@@ -23,8 +23,8 @@ The carrier holds the complete compile. Nothing was deleted — it was filed whe
 Natasha — Croatian, based in Copenhagen. Runs NV Consulting (solo hospitality technology
 consulting) while building Little (Known) Studio as her primary professional identity.
 Collects vinyl, practices political art (Photoshop, Illustrator, InDesign, self-taught),
-is learning to code and draw (21 Draw anatomy course), publishes at Substack
-@secondhandwisdom, currently rereading *The Talisman*. Keeper and carrier of the house —
+is learning to code and draw (21 Draw anatomy course), currently rereading
+*The Talisman*. Keeper and carrier of the house —
 carrier of the file, not audience to it.
 
 ## Top of mind — final state, ~20 July 2026
